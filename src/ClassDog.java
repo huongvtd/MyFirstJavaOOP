@@ -15,6 +15,6 @@ public class ClassDog extends ClassAnimal{
     }
 
     public void goodBoy(){
-        System.out.println(name + ", come here!");
+        System.out.println(super.name + ", come here!");
     }
 }

@@ -22,7 +22,7 @@ public class Main {
         instance.completeLearning();
         instance.learningStatus();*/
 
-        ClassCat cat = new ClassCat("Jerry", "Vietnamese black");
+        /*ClassCat cat = new ClassCat("Jerry", "Vietnamese black");
         cat.setName("Suri");
         System.out.println("I have a cat named "+ cat.getName() + " who is " + cat.getBreed() + ".");
         cat.makeSound();
@@ -32,7 +32,13 @@ public class Main {
         System.out.println(dog.getName() + "is a " + dog.getBreed());
         dog.makeSound();
         dog.sleep();
-        dog.goodBoy();
+        dog.goodBoy();*/
+
+        InterfaceDemo interfaceDemo = new InterfaceDemo();
+        interfaceDemo.printNewText();
+        interfaceDemo.printMessage();
+
+
 
 
 
