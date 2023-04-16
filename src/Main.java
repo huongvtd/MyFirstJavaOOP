@@ -28,6 +28,12 @@ public class Main {
         cat.makeSound();
         cat.sleep();
 
+        ClassDog dog = new ClassDog("Pluto","English chihuahua");
+        System.out.println(dog.getName() + "is a " + dog.getBreed());
+        dog.makeSound();
+        dog.sleep();
+        dog.goodBoy();
+
 
 
     }
