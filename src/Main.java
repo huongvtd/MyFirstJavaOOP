@@ -34,9 +34,17 @@ public class Main {
         dog.sleep();
         dog.goodBoy();*/
 
-        InterfaceDemo interfaceDemo = new InterfaceDemo();
+       /* InterfaceDemo interfaceDemo = new InterfaceDemo();
         interfaceDemo.printNewText();
-        interfaceDemo.printMessage();
+        interfaceDemo.printMessage();*/
+
+        Sedan sedan = new Sedan("Toyota", "Corolla", 0, 45);
+        sedan.drive(4000);
+        sedan.forSale(50);
+
+        Coupe coupe = new Coupe("Chevrolet", "Camaro", 0, 40);
+        coupe.drive(4050);
+        coupe.forSale(46);
 
 
 
