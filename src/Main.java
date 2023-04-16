@@ -25,5 +25,10 @@ public class Main {
         ClassCat cat = new ClassCat("Jerry", "Vietnamese black");
         cat.setName("Suri");
         System.out.println("I have a cat named "+ cat.getName() + " who is " + cat.getBreed() + ".");
+        cat.makeSound();
+        cat.sleep();
+
+
+
     }
 }

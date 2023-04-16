@@ -1,4 +1,4 @@
-public class ClassCat {
+public class ClassCat extends ClassAnimal {
 
     private String name;
     private String breed;
@@ -20,5 +20,8 @@ public class ClassCat {
     }
 
 
-
+    @Override
+    void makeSound() {
+        System.out.println("meow");
+    }
 }
